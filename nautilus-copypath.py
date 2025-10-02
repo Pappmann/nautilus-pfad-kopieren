@@ -189,9 +189,9 @@ class CopyPathExtension(GObject.GObject, Nautilus.MenuProvider):
 
         # Pluralize label if needed
         if len(files) > 1:
-            item_label = 'Copy Paths'
+            item_label = 'Pfade kopieren'
         else:
-            item_label = 'Copy Path'
+            item_label = 'Pfad kopieren'
 
         item_copy_path = Nautilus.MenuItem(
             name='PathUtils::CopyPath',
