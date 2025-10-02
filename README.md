@@ -23,7 +23,7 @@ Kopiere einfach den für deine Distribution passenden Befehl und füge ihn ein:
 ### Installation der Erweiterung
 Klon das Repository:
 ```
-git clone https://github.com/ronen25/nautilus-copypath
+git clone https://github.com/Pappmann/nautilus-pfad-kopieren.git
 ```
 
 Kopiere die Datei(en) in den entsprechenden Ordner und erstelle ihn bei Bedarf:
