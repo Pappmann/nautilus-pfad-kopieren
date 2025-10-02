@@ -196,7 +196,7 @@ class CopyPathExtension(GObject.GObject, Nautilus.MenuProvider):
         item_copy_path = Nautilus.MenuItem(
             name='PathUtils::CopyPath',
             label=item_label,
-            tip='Copy the full path to the clipboard'
+            tip='Kopiert den ganzen Pfad in die Zwischenablage.'
         )
         item_copy_path.connect('activate', self.__copy_files_path, files)
 
@@ -207,8 +207,8 @@ class CopyPathExtension(GObject.GObject, Nautilus.MenuProvider):
 
         item_copy_dir_path = Nautilus.MenuItem(
             name='PathUtils::CopyCurrentDirPath',
-            label='Copy Directory Path',
-            tip='''Copy the current directory's path to the clipboard'''
+            label='Verzeichnis Pfad kopieren',
+            tip='''Kopiere den Pfad des aktuellen Verzeichnisses in die Zwischenablage'''
         )
 
         item_copy_dir_path.connect('activate', self.__copy_dir_path, file)
