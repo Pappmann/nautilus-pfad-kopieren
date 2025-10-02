@@ -1,7 +1,7 @@
 # nautilus-pfad-kopieren
 Eine kleine Nautilus-Erweiterung zum schnellen Kopieren von Datei-/Samba-Pfaden.
 
-![Screenshot](https://github.com/ronen25/nautilus-copypath/blob/master/screenshots/screenshot.png)
+![Screenshot](https://github.com/ronen25/nautilus-copypath/blob/master/screenshots/Bildschirmfoto.png)
 
 ## Installation aus dem Quellcode
 Um das Plugin erfolgreich zu installieren, brauchst du:
